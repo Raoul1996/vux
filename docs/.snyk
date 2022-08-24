@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - axios > follow-redirects > debug:
+        patched: '2022-08-23T05:34:29.055Z'
+  SNYK-JS-LODASH-567746:
+    - babel-plugin-component > @babel/helper-module-imports > lodash:
+        patched: '2022-08-23T05:34:29.055Z'
+    - v-markdown-loader > cheerio > lodash:
+        patched: '2022-08-23T05:34:29.055Z'
+    - babel-plugin-component > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-08-23T05:34:29.055Z'
