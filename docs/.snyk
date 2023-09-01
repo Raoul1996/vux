@@ -1,0 +1,61 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - less > request > extend:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:extend:20180424'
+        path: less > request > extend
+    - v-markdown-loader > cheerio > jsdom > request > extend:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:extend:20180424'
+        path: v-markdown-loader > cheerio > jsdom > request > extend
+  'npm:hoek:20180212':
+    - less > request > hawk > hoek:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:hoek:20180212'
+        path: less > request > hawk > hoek
+    - less > request > hawk > boom > hoek:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:hoek:20180212'
+        path: less > request > hawk > boom > hoek
+    - less > request > hawk > sntp > hoek:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:hoek:20180212'
+        path: less > request > hawk > sntp > hoek
+    - v-markdown-loader > cheerio > jsdom > request > hawk > hoek:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:hoek:20180212'
+        path: v-markdown-loader > cheerio > jsdom > request > hawk > hoek
+    - v-markdown-loader > cheerio > jsdom > request > hawk > boom > hoek:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:hoek:20180212'
+        path: v-markdown-loader > cheerio > jsdom > request > hawk > boom > hoek
+    - v-markdown-loader > cheerio > jsdom > request > hawk > sntp > hoek:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:hoek:20180212'
+        path: v-markdown-loader > cheerio > jsdom > request > hawk > sntp > hoek
+  'npm:stringstream:20180511':
+    - less > request > stringstream:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:stringstream:20180511'
+        path: less > request > stringstream
+    - v-markdown-loader > cheerio > jsdom > request > stringstream:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:stringstream:20180511'
+        path: v-markdown-loader > cheerio > jsdom > request > stringstream
+  'npm:tough-cookie:20170905':
+    - less > request > tough-cookie:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:tough-cookie:20170905'
+        path: less > request > tough-cookie
+    - v-markdown-loader > cheerio > jsdom > tough-cookie:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:tough-cookie:20170905'
+        path: v-markdown-loader > cheerio > jsdom > tough-cookie
+    - v-markdown-loader > cheerio > jsdom > request > tough-cookie:
+        patched: '2023-09-01T16:28:08.179Z'
+        id: 'npm:tough-cookie:20170905'
+        path: v-markdown-loader > cheerio > jsdom > request > tough-cookie
