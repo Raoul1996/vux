@@ -4823,12 +4823,12 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-clipboard2@^0.1.0:
-  version "0.1.0"
-  resolved "http://registry.npm.taobao.org/vue-clipboard2/download/vue-clipboard2-0.1.0.tgz#5bb51cab25a1d3d30c672b723748e9c0c1a49b5f"
+vue-clipboard2@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/vue-clipboard2/-/vue-clipboard2-0.1.1.tgz#1a3931cd162e037ef699def28270781d894ce83f"
+  integrity sha512-awHaVK3wSQhzYsu2uzvF/KwZa+Sw3bj/PALEJCFt7gae3cM4OJc+MgPIqm2fOpXqaB6IHmJ9NB9d2ieR36VjMQ==
   dependencies:
     clipboard "^2.0.0"
-    vue "^2.0.0"
 
 vue-hot-reload-api@^2.1.0:
   version "2.1.0"
@@ -4919,7 +4919,7 @@ vue-template-es2015-compiler@^1.2.2:
   version "1.5.3"
   resolved "http://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.5.3.tgz#22787de4e37ebd9339b74223bc467d1adee30545"
 
-vue@2.5.16, vue@^2.0.0:
+vue@2.5.16:
   version "2.5.16"
   resolved "http://registry.npm.taobao.org/vue/download/vue-2.5.16.tgz#07edb75e8412aaeed871ebafa99f4672584a0085"
 
